@@ -11,3 +11,7 @@ A command-line application built in C to manage contact information with data pe
 - Language: **C**
 - Environment: WSL (Ubuntu) on Windows
 - Compiler: GCC (Linux)
+## System Architecture
+![System Flowchart](system_architecture.jpg)
+
+
