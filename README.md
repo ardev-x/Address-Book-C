@@ -23,21 +23,21 @@ These flowcharts visualize the logical progression and modular interactions of t
 Details the multi-step process for data entry, strict validation (Name/Phone), and duplicate detection before saving in memory.
 
 <p align="center">
-  <img src="Diagrams/create_flow.jpg" alt="Create Contact Flow" width="700">
+  <img src="Diagrams/createContact.jpg" alt="Create Contact Flow" width="700">
 </p>
 
 ### 🔍 Search Contact Flow
 Illustrates the modular search logic, allowing users to find contacts by Name or Phone using `strcmp` iteration.
 
 <p align="center">
-  <img src="Diagrams/search_flow.jpg" alt="Search Contact Flow" width="700">
+  <img src="Diagrams/searchContact.jpg" alt="Search Contact Flow" width="700">
 </p>
 
-### ✏️ Edit Contact Flow (Conceptual)
-Maps out how the modular system will reuse the SEARCH logic to locate a contact and overwrite specific fields safely after re-validation.
+### ✏️ Display Contact Flow
+It shows how the contacts are being displayed
 
 <p align="center">
-  <img src="Diagrams/edit_flow.jpg" alt="Edit Contact Flow" width="700">
+  <img src="Diagrams/displayContact.jpg" alt="Display Contact Flow" width="700">
 </p>
 
 ## 💾 CSV Database Layout
