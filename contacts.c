@@ -243,6 +243,7 @@ int searchContact(AddressBook * myBook)
                 }
                 printf(B_GREEN"───────────────────────────────────────────────────────────────────────────────────────\n\n" RESET); 
             }
+            break;
         }
         case 2:{
             printf("Enter the phone number: ");
@@ -260,6 +261,7 @@ int searchContact(AddressBook * myBook)
                     return slno;
                 }
             }
+            break;
         }
         case 3:{
             printf("Enter the mail ID: ");
@@ -278,6 +280,7 @@ int searchContact(AddressBook * myBook)
                    return slno;
                 }  
             }
+            break;
         }
         default:
             printf(INVALID B_RED"Invalid Choice Entered\n\n" RESET);
